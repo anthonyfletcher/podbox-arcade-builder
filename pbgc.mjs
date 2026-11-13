@@ -15,7 +15,7 @@ var __export = (target2, all) => {
     __defProp(target2, name, { get: all[name], enumerable: true });
 };
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/folder.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/folder.js
 function newCartId() {
   return Array.from(
     globalThis.crypto.getRandomValues(new Uint8Array(8)),
@@ -29,11 +29,11 @@ function asNewGame(cartJson, name) {
   return JSON.stringify(c, null, 2) + "\n";
 }
 var init_folder = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/folder.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/folder.js"() {
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/defs.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/defs.js
 function args(s) {
   return s.split(",").map(function(a) {
     return a.trim();
@@ -135,12 +135,12 @@ function parseApi(text2) {
 }
 var OPERAND_SIZE;
 var init_defs = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/defs.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/defs.js"() {
     OPERAND_SIZE = { b: 1, B: 1, h: 2, H: 2, i: 4 };
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/node_modules/acorn/dist/acorn.mjs
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/node_modules/acorn/dist/acorn.mjs
 function isInAstralSet(code2, set) {
   var pos = 65536;
   for (var i2 = 0; i2 < set.length; i2 += 2) {
@@ -441,7 +441,7 @@ function parse3(input, options2) {
 }
 var astralIdentifierCodes, astralIdentifierStartCodes, nonASCIIidentifierChars, nonASCIIidentifierStartChars, reservedWords, ecma5AndLessKeywords, keywords$1, keywordRelationalOperator, nonASCIIidentifierStart, nonASCIIidentifier, TokenType, beforeExpr, startsExpr, keywords, types$1, lineBreak, lineBreakG, nonASCIIwhitespace, skipWhiteSpace, ref, hasOwnProperty, toString, hasOwn, isArray, regexpCache, loneSurrogate, Position, SourceLocation, defaultOptions, warnedAboutEcmaVersion, SCOPE_TOP, SCOPE_FUNCTION, SCOPE_ASYNC, SCOPE_GENERATOR, SCOPE_ARROW, SCOPE_SIMPLE_CATCH, SCOPE_SUPER, SCOPE_DIRECT_SUPER, SCOPE_CLASS_STATIC_BLOCK, SCOPE_CLASS_FIELD_INIT, SCOPE_SWITCH, SCOPE_VAR, BIND_NONE, BIND_VAR, BIND_LEXICAL, BIND_FUNCTION, BIND_SIMPLE_CATCH, BIND_OUTSIDE, Parser, prototypeAccessors, pp$9, literal, DestructuringErrors, pp$8, loopLabel, switchLabel, empty$1, FUNC_STATEMENT, FUNC_HANGING_STATEMENT, FUNC_NULLABLE_ID, pp$7, TokContext, types, pp$6, pp$5, empty, pp$4, pp$3, Scope, Node, pp$2, scriptValuesAddedInUnicode, ecma9BinaryProperties, ecma10BinaryProperties, ecma11BinaryProperties, ecma12BinaryProperties, ecma13BinaryProperties, ecma14BinaryProperties, unicodeBinaryProperties, ecma14BinaryPropertiesOfStrings, unicodeBinaryPropertiesOfStrings, unicodeGeneralCategoryValues, ecma9ScriptValues, ecma10ScriptValues, ecma11ScriptValues, ecma12ScriptValues, ecma13ScriptValues, ecma14ScriptValues, unicodeScriptValues, data, ecmaVersion, i, list, pp$1, BranchID, RegExpValidationState, CharSetNone, CharSetOk, CharSetString, Token, pp, INVALID_TEMPLATE_ESCAPE_ERROR, version;
 var init_acorn = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/node_modules/acorn/dist/acorn.mjs"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/node_modules/acorn/dist/acorn.mjs"() {
     astralIdentifierCodes = [509, 0, 227, 0, 150, 4, 294, 9, 1368, 2, 2, 1, 6, 3, 41, 2, 5, 0, 166, 1, 574, 3, 9, 9, 7, 9, 32, 4, 318, 1, 31, 4, 33, 15, 71, 10, 50, 3, 123, 2, 54, 14, 32, 10, 3, 1, 11, 3, 46, 10, 8, 0, 46, 9, 7, 2, 37, 13, 2, 9, 6, 1, 45, 0, 13, 2, 49, 13, 9, 3, 2, 11, 83, 11, 7, 0, 3, 0, 158, 11, 6, 9, 7, 3, 56, 1, 2, 6, 3, 1, 3, 2, 10, 0, 11, 1, 3, 6, 4, 4, 68, 8, 2, 0, 3, 0, 2, 3, 2, 4, 2, 0, 15, 1, 83, 17, 10, 9, 5, 0, 82, 19, 13, 9, 214, 6, 3, 8, 28, 1, 83, 16, 16, 9, 82, 12, 9, 9, 7, 19, 58, 14, 5, 9, 243, 14, 166, 9, 71, 5, 2, 1, 3, 3, 2, 0, 2, 1, 13, 9, 120, 6, 3, 6, 4, 0, 29, 9, 41, 6, 2, 3, 9, 0, 10, 10, 47, 15, 199, 7, 137, 9, 54, 7, 2, 7, 17, 9, 57, 21, 2, 13, 123, 5, 4, 0, 2, 1, 2, 6, 2, 0, 9, 9, 49, 4, 2, 1, 2, 4, 9, 9, 55, 9, 7, 0, 259, 3, 10, 1, 2, 0, 49, 6, 4, 4, 14, 10, 5350, 0, 7, 14, 11465, 27, 2343, 9, 87, 9, 39, 4, 60, 6, 26, 9, 535, 9, 470, 0, 2, 54, 8, 3, 82, 0, 12, 1, 19628, 1, 4178, 9, 519, 45, 3, 22, 481, 1, 61, 4, 4, 5, 9, 7, 3, 6, 31, 3, 149, 2, 12, 2, 9, 1, 3, 0, 33, 1, 1357, 49, 513, 54, 5, 49, 9, 0, 15, 0, 23, 4, 2, 14, 1361, 6, 2, 16, 3, 6, 2, 1, 2, 4, 101, 0, 161, 6, 10, 9, 357, 0, 62, 13, 499, 13, 245, 1, 2, 9, 233, 0, 3, 0, 8, 1, 6, 0, 475, 6, 110, 6, 6, 9, 4759, 9, 787719, 239];
     astralIdentifierStartCodes = [0, 11, 2, 25, 2, 18, 2, 1, 2, 14, 3, 13, 35, 122, 70, 52, 268, 28, 4, 48, 48, 31, 14, 29, 6, 37, 11, 29, 3, 35, 5, 7, 2, 4, 43, 157, 19, 35, 5, 35, 5, 39, 9, 51, 13, 10, 2, 14, 2, 6, 2, 1, 2, 10, 2, 14, 2, 6, 2, 1, 4, 51, 13, 310, 10, 21, 11, 7, 25, 5, 2, 41, 2, 13, 65, 5, 3, 0, 2, 43, 2, 1, 4, 0, 3, 22, 11, 22, 10, 30, 66, 18, 2, 1, 11, 21, 11, 25, 7, 25, 39, 55, 7, 1, 65, 0, 16, 3, 2, 2, 2, 28, 43, 28, 4, 28, 36, 7, 2, 27, 28, 53, 11, 21, 11, 18, 14, 17, 111, 72, 56, 50, 14, 50, 14, 35, 39, 27, 10, 22, 251, 41, 7, 1, 17, 5, 18, 21, 18, 28, 11, 0, 9, 21, 43, 17, 47, 20, 28, 22, 13, 52, 58, 1, 3, 0, 14, 44, 33, 24, 27, 35, 30, 0, 3, 0, 9, 34, 4, 0, 13, 47, 15, 3, 22, 0, 2, 0, 36, 17, 2, 24, 20, 1, 64, 6, 2, 0, 2, 3, 2, 14, 2, 9, 8, 46, 39, 7, 3, 1, 3, 21, 2, 6, 2, 1, 2, 4, 4, 0, 19, 0, 13, 4, 31, 9, 2, 0, 3, 0, 2, 37, 2, 0, 26, 0, 2, 0, 45, 52, 19, 3, 21, 2, 31, 47, 21, 1, 2, 0, 185, 46, 42, 3, 37, 47, 21, 0, 60, 42, 14, 0, 72, 26, 38, 6, 186, 43, 117, 63, 32, 7, 3, 0, 3, 7, 2, 1, 2, 23, 16, 0, 2, 0, 95, 7, 3, 38, 17, 0, 2, 0, 29, 0, 11, 39, 8, 0, 22, 0, 12, 45, 20, 0, 19, 72, 18, 0, 182, 32, 32, 8, 2, 36, 18, 0, 50, 29, 113, 6, 2, 1, 2, 37, 22, 0, 26, 5, 2, 1, 2, 31, 15, 0, 24, 43, 22, 0, 239, 18, 16, 0, 2, 12, 2, 33, 125, 0, 80, 921, 103, 111, 6, 206, 13, 310, 2314, 96, 16, 1071, 18, 5, 26, 3994, 6, 582, 6842, 29, 1763, 568, 8, 30, 18, 78, 18, 29, 19, 47, 17, 3, 32, 20, 6, 18, 433, 44, 212, 63, 33, 24, 3, 24, 45, 74, 6, 0, 67, 12, 65, 1, 2, 0, 15, 4, 10, 7386, 37, 33, 96, 114, 14, 913, 15, 50, 7710, 3, 2, 6, 2, 1, 2, 296, 10, 0, 30, 2, 3, 0, 15, 4, 8, 395, 2309, 106, 6, 12, 4, 8, 8, 9, 5991, 84, 2, 70, 2, 1, 3, 0, 3, 1, 3, 3, 2, 11, 2, 0, 2, 6, 2, 64, 2, 3, 3, 7, 2, 6, 2, 27, 2, 3, 2, 4, 2, 0, 4, 6, 2, 340, 2, 24, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 30, 2, 24, 2, 7, 1845, 129, 15, 6, 55, 50, 49, 61, 147, 44, 11, 6, 17, 0, 322, 29, 19, 43, 485, 27, 229, 29, 3, 0, 208, 30, 2, 2, 2, 1, 2, 6, 3, 4, 10, 1, 225, 6, 2, 3, 2, 1, 2, 14, 2, 196, 60, 67, 8, 0, 1205, 3, 2, 26, 2, 1, 2, 0, 3, 0, 2, 9, 2, 3, 2, 0, 2, 0, 7, 0, 5, 0, 2, 0, 2, 0, 2, 2, 2, 1, 2, 0, 3, 0, 2, 0, 2, 0, 2, 0, 2, 0, 2, 1, 2, 0, 3, 3, 2, 6, 2, 3, 2, 3, 2, 0, 2, 9, 2, 16, 6, 2, 2, 4, 2, 16, 4421, 42719, 33, 4382, 2, 5773, 3, 7472, 16, 621, 2467, 541, 1507, 4938, 6, 8489, 39815, 11327];
     nonASCIIidentifierChars = "\u200C\u200D\xB7\u0300-\u036F\u0387\u0483-\u0487\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7-\u05C9\u0610-\u061A\u064B-\u0669\u0670\u06D6-\u06DC\u06DF-\u06E4\u06E7\u06E8\u06EA-\u06ED\u06F0-\u06F9\u0711\u0730-\u074A\u07A6-\u07B0\u07C0-\u07C9\u07EB-\u07F3\u07FD\u0816-\u0819\u081B-\u0823\u0825-\u0827\u0829-\u082D\u0859-\u085B\u0897-\u089F\u08CA-\u08E1\u08E3-\u0903\u093A-\u093C\u093E-\u094F\u0951-\u0957\u0962\u0963\u0966-\u096F\u0981-\u0983\u09BC\u09BE-\u09C4\u09C7\u09C8\u09CB-\u09CD\u09D7\u09E2\u09E3\u09E6-\u09EF\u09FE\u0A01-\u0A03\u0A3C\u0A3E-\u0A42\u0A47\u0A48\u0A4B-\u0A4D\u0A51\u0A66-\u0A71\u0A75\u0A81-\u0A83\u0ABC\u0ABE-\u0AC5\u0AC7-\u0AC9\u0ACB-\u0ACD\u0AE2\u0AE3\u0AE6-\u0AEF\u0AFA-\u0AFF\u0B01-\u0B03\u0B3C\u0B3E-\u0B44\u0B47\u0B48\u0B4B-\u0B4D\u0B53-\u0B57\u0B62\u0B63\u0B66-\u0B6F\u0B82\u0BBE-\u0BC2\u0BC6-\u0BC8\u0BCA-\u0BCD\u0BD7\u0BE6-\u0BEF\u0C00-\u0C04\u0C3C\u0C3E-\u0C44\u0C46-\u0C48\u0C4A-\u0C4D\u0C55\u0C56\u0C62\u0C63\u0C66-\u0C6F\u0C81-\u0C83\u0CBC\u0CBE-\u0CC4\u0CC6-\u0CC8\u0CCA-\u0CCD\u0CD5\u0CD6\u0CE2\u0CE3\u0CE6-\u0CEF\u0CF3\u0D00-\u0D03\u0D3B\u0D3C\u0D3E-\u0D44\u0D46-\u0D48\u0D4A-\u0D4D\u0D57\u0D62\u0D63\u0D66-\u0D6F\u0D81-\u0D83\u0DCA\u0DCF-\u0DD4\u0DD6\u0DD8-\u0DDF\u0DE6-\u0DEF\u0DF2\u0DF3\u0E31\u0E34-\u0E3A\u0E47-\u0E4E\u0E50-\u0E59\u0EB1\u0EB4-\u0EBC\u0EC8-\u0ECE\u0ED0-\u0ED9\u0F18\u0F19\u0F20-\u0F29\u0F35\u0F37\u0F39\u0F3E\u0F3F\u0F71-\u0F84\u0F86\u0F87\u0F8D-\u0F97\u0F99-\u0FBC\u0FC6\u102B-\u103E\u1040-\u1049\u1056-\u1059\u105E-\u1060\u1062-\u1064\u1067-\u106D\u1071-\u1074\u1082-\u108D\u108F-\u109D\u135D-\u135F\u1369-\u1371\u1712-\u1715\u1732-\u1734\u1752\u1753\u1772\u1773\u17B4-\u17D3\u17DD\u17E0-\u17E9\u180B-\u180D\u180F-\u1819\u18A9\u1920-\u192B\u1930-\u193B\u1946-\u194F\u19D0-\u19DA\u1A17-\u1A1B\u1A55-\u1A5E\u1A60-\u1A7C\u1A7F-\u1A89\u1A90-\u1A99\u1AB0-\u1ABD\u1ABF-\u1AF0\u1B00-\u1B04\u1B34-\u1B44\u1B50-\u1B59\u1B6B-\u1B73\u1B80-\u1B82\u1BA1-\u1BAD\u1BB0-\u1BB9\u1BE6-\u1BF3\u1C24-\u1C37\u1C40-\u1C49\u1C50-\u1C59\u1CD0-\u1CD2\u1CD4-\u1CE8\u1CED\u1CF4\u1CF7-\u1CF9\u1DC0-\u1DFF\u200C\u200D\u203F\u2040\u2054\u20D0-\u20DC\u20E1\u20E5-\u20F0\u2CEF-\u2CF1\u2D7F\u2DE0-\u2DFF\u302A-\u302F\u3099\u309A\u30FB\uA620-\uA629\uA66F\uA674-\uA67D\uA69E\uA69F\uA6F0\uA6F1\uA802\uA806\uA80B\uA823-\uA827\uA82C\uA880\uA881\uA8B4-\uA8C5\uA8D0-\uA8D9\uA8E0-\uA8F1\uA8FF-\uA909\uA926-\uA92D\uA947-\uA953\uA980-\uA983\uA9B3-\uA9C0\uA9D0-\uA9D9\uA9E5\uA9F0-\uA9F9\uAA29-\uAA36\uAA43\uAA4C\uAA4D\uAA50-\uAA59\uAA7B-\uAA7D\uAAB0\uAAB2-\uAAB4\uAAB7\uAAB8\uAABE\uAABF\uAAC1\uAAEB-\uAAEF\uAAF5\uAAF6\uABE3-\uABEA\uABEC\uABED\uABF0-\uABF9\uFB1E\uFE00-\uFE0F\uFE20-\uFE2F\uFE33\uFE34\uFE4D-\uFE4F\uFF10-\uFF19\uFF3F\uFF65";
@@ -5869,7 +5869,7 @@ var init_acorn = __esm({
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/cart.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/cart.js
 function crc32(bytes) {
   let c = 4294967295;
   for (let i2 = 0; i2 < bytes.length; i2++)
@@ -5921,7 +5921,7 @@ function readCart(bytes) {
 }
 var CRC_TABLE, Writer;
 var init_cart = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/cart.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/cart.js"() {
     CRC_TABLE = (function() {
       const t = new Uint32Array(256);
       for (let n = 0; n < 256; n++) {
@@ -5979,7 +5979,7 @@ var init_cart = __esm({
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/lz4.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/lz4.js
 function read32(b, i2) {
   return (b[i2] | b[i2 + 1] << 8 | b[i2 + 2] << 16 | b[i2 + 3] << 24) >>> 0;
 }
@@ -6058,14 +6058,14 @@ function lz4Decompress(src, size) {
 }
 var MINMATCH, LAST_LITERALS, MFLIMIT;
 var init_lz4 = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/lz4.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/lz4.js"() {
     MINMATCH = 4;
     LAST_LITERALS = 5;
     MFLIMIT = 12;
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/png.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/png.js
 function u32be(b, i2) {
   return (b[i2] << 24 | b[i2 + 1] << 16 | b[i2 + 2] << 8 | b[i2 + 3]) >>> 0;
 }
@@ -6192,12 +6192,12 @@ function encodeIndexedPng(width, height, px, rgb, deflate2) {
 }
 var SIGNATURE;
 var init_png = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/png.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/png.js"() {
     SIGNATURE = [137, 80, 78, 71, 13, 10, 26, 10];
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/sfxr.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/sfxr.js
 function sfxrParams(json) {
   const p = Object.assign({}, DEFAULTS);
   for (const k in json) {
@@ -6389,7 +6389,7 @@ function halve(samples) {
 }
 var SFXR_RATE, MAX_SECONDS, DEFAULTS, RANGES;
 var init_sfxr = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/sfxr.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/sfxr.js"() {
     SFXR_RATE = 44100;
     MAX_SECONDS = 10;
     DEFAULTS = {
@@ -6433,7 +6433,7 @@ var init_sfxr = __esm({
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/bdf.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/bdf.js
 function parseBdf(text2) {
   let ascent = null, descent = null, ch = null, line = 0;
   const glyphs = /* @__PURE__ */ new Map();
@@ -6534,7 +6534,7 @@ function fontChunk(fonts) {
 }
 var MAX_FONTS, MAX_FONT_BYTES, MAX_SIDE;
 var init_bdf = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/bdf.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/bdf.js"() {
     init_cart();
     MAX_FONTS = 16;
     MAX_FONT_BYTES = 65536;
@@ -6542,7 +6542,7 @@ var init_bdf = __esm({
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/assets.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/assets.js
 function objectKinds(text2) {
   const f = JSON.parse(text2), kinds = /* @__PURE__ */ new Map();
   const isText = (v) => v === void 0 || typeof v === "string";
@@ -6952,7 +6952,7 @@ function depthFault(v, depth) {
 }
 var FIRST_FONT, ENGINE_FONTS, NAME, MAX_MAP, MAX_IMAGE, LOGO, IMAGE_BYTES;
 var init_assets = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/assets.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/assets.js"() {
     init_cart();
     init_lz4();
     init_png();
@@ -6968,7 +6968,7 @@ var init_assets = __esm({
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/unpack.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/unpack.js
 function reader(bytes) {
   let at2 = 0;
   const r = {
@@ -7052,7 +7052,7 @@ function unpackCart(bytes, inflateRaw, deflate2) {
 }
 var DEFAULT_RGB, SOURCE_NAME;
 var init_unpack = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/unpack.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/unpack.js"() {
     init_cart();
     init_lz4();
     init_png();
@@ -7078,7 +7078,7 @@ var init_unpack = __esm({
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/numbers.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/numbers.js
 function fix(raw) {
   return new Fix(raw);
 }
@@ -7193,7 +7193,7 @@ function bnot(a) {
 }
 var Fix, B16, MASK32;
 var init_numbers = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/numbers.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/numbers.js"() {
     Fix = class {
       constructor(raw) {
         this.raw = raw | 0;
@@ -7212,7 +7212,7 @@ var init_numbers = __esm({
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/compiler.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/compiler.js
 function nullProto(o) {
   return Object.assign(/* @__PURE__ */ Object.create(null), o);
 }
@@ -7866,7 +7866,7 @@ function compile(input) {
 }
 var FORMAT, RATES, LEVELS, MUSIC, MAX_PARTS, CompileError, UNSUPPORTED, MISSING_METHODS, MISSING_GLOBALS, BUILTINS, BINARY, FUSED, FUSED_NOT, FUSED_LOCAL, BINARY_REJECTED, truthy2, Scope3, Fn, WRITES_ARGUMENTS, Program, META_TAGS, FORMATS, OPT_TYPES, CART_KEYS, BOARD_KEYS, OPTION_KEYS, NAME2;
 var init_compiler = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/compiler.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/compiler.js"() {
     init_acorn();
     init_cart();
     init_assets();
@@ -9395,7 +9395,7 @@ var init_compiler = __esm({
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/node.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/node.js
 import fs from "node:fs";
 import path from "node:path";
 import zlib from "node:zlib";
@@ -9460,7 +9460,7 @@ function readAssets(dir) {
 }
 var here, engine, defs;
 var init_node = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/node.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/node.js"() {
     init_defs();
     init_compiler();
     here = path.dirname(fileURLToPath(import.meta.url));
@@ -9469,7 +9469,7 @@ var init_node = __esm({
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/bytecode.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/bytecode.js
 function load(bytes) {
   const { chunks } = readCart(bytes);
   for (const t of ["PBG1", "CODE", "CNST", "GLOB"])
@@ -9798,7 +9798,7 @@ function disassemble(isa, api, prog) {
 }
 var Reader, NONE, JUMPS, target;
 var init_bytecode = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/bytecode.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/bytecode.js"() {
     init_cart();
     Reader = class {
       constructor(bytes) {
@@ -9855,7 +9855,7 @@ var init_bytecode = __esm({
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/webpage.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/webpage.js
 function musicCalls(cart, isa, api) {
   const prog = load(cart);
   const found = /* @__PURE__ */ new Set();
@@ -9913,7 +9913,7 @@ function webPage(o) {
 }
 var SOURCE, WHEELS, SCALES, MUSIC2, NOT_MUSIC, html;
 var init_webpage = __esm({
-  "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/src/webpage.js"() {
+  "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/src/webpage.js"() {
     init_bytecode();
     SOURCE = "https://github.com/anthonyfletcher/podbox#credits-and-licence";
     WHEELS = ["touch", "always", "never"];
@@ -9938,7 +9938,7 @@ var init_bundle = __esm({
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/pbgc.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/pbgc.js
 var pbgc_exports = {};
 import fs3 from "node:fs";
 import path2 from "node:path";
@@ -10083,7 +10083,7 @@ async function cmdHtml(src, out, wheel, scale, fontFile) {
 }
 var MAIN, argv;
 var init_pbgc = __esm({
-  async "../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/sdk/pbgc.js"() {
+  async "../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/sdk/pbgc.js"() {
     init_folder();
     init_node();
     init_unpack();
@@ -10145,7 +10145,7 @@ function draw() {
   }
 });
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/apps-ipod/games/arcade/opcodes.def
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/apps-ipod/games/arcade/opcodes.def
 var opcodes_default = `/* GNU General Public License (version 2+)
  *
  * Arcade bytecode: the one list of instructions, read by the VM and the
@@ -10282,7 +10282,7 @@ INTRINSIC(round,        1, 1)   /* Math.round: halves round up */
 INTRINSIC(trunc,        1, 1)   /* Math.trunc: toward zero */
 `;
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/apps-ipod/games/arcade/arcade_api.def
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/apps-ipod/games/arcade/arcade_api.def
 var arcade_api_default = `/* GNU General Public License (version 2+)
  *
  * Arcade native API: the one list of functions a cart can call, read by the
@@ -10742,6 +10742,6 @@ API_CONSTG(SOUND, CHANGE,     30, 1)
 API_CONSTG(SOUND, SIZE,       31, 1)
 `;
 
-// ../../AppData/Local/Temp/tmp.9hI8gmjr99/src/arcade/builder/entry.js
+// ../../AppData/Local/Temp/tmp.iZJa1h7WU7/src/arcade/builder/entry.js
 globalThis.arcadeDefs = { "opcodes.def": opcodes_default, "arcade_api.def": arcade_api_default };
 await init_pbgc().then(() => pbgc_exports);
